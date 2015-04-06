@@ -1,0 +1,14 @@
+<root>
+    <Server name="HeartBeatServer">
+        <DBConnection>
+            <DBUrl>jdbc:mysql://localhost</DBUrl>
+            <DB>test</DB>
+            <Port>3306</Port>
+            <User>root</User>
+            <Password></Password>
+        </DBConnection>
+        <TCPConnection>
+            <Port>8992</Port>
+        </TCPConnection>
+    </Server>
+</root>
